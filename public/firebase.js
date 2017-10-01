@@ -1,0 +1,1 @@
+module.config = require() //wait

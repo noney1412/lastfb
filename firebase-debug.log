@@ -1,0 +1,482 @@
+[debug] [2017-09-30T23:07:29.336Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:07:29.338Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:07:29.338Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:07:29.338Z] Platform:      win32
+[debug] [2017-09-30T23:07:29.338Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:07:29.339Z] Time:          Sun Oct 01 2017 06:07:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:29.339Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:07:29.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:07:29.349Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:07:29.350Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:07:29 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:30.928Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:07:30.929Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:07:30 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:32.100Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:07:32.756Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:07:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:32.756Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:07:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:32.756Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:07:32 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:34.186Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:07:34.186Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:07:34 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:07:34.267Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:07:34.330Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:07:35.333Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:08:44.479Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:08:44.481Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:08:44.481Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:08:44.481Z] Platform:      win32
+[debug] [2017-09-30T23:08:44.481Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:08:44.482Z] Time:          Sun Oct 01 2017 06:08:44 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:44.482Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:08:44.491Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:08:44.492Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:08:44.494Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:08:44 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:46.090Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:08:46.090Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:08:46 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:47.046Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:08:47.681Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:08:47 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:47.682Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:08:47 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:47.682Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:08:47 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:49.253Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:08:49.254Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:08:49 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:08:49.255Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:08:49.257Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:08:50.222Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:11:36.672Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:11:36.675Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:11:36.675Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:11:36.675Z] Platform:      win32
+[debug] [2017-09-30T23:11:36.675Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:11:36.675Z] Time:          Sun Oct 01 2017 06:11:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:36.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:11:36.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:11:36.686Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:11:36.688Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:11:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:38.245Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:11:38.246Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:11:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:39.296Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:11:40.008Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:11:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:40.009Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:11:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:40.009Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:11:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:41.741Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:11:41.741Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:11:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:11:41.743Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:11:41.745Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:11:43.384Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:12:10.514Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:12:10.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:12:10.516Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:12:10.516Z] Platform:      win32
+[debug] [2017-09-30T23:12:10.516Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:12:10.516Z] Time:          Sun Oct 01 2017 06:12:10 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:10.516Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:12:10.528Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:12:10.528Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:12:10.530Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:12:10 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:11.898Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:11.900Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:12:11 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:13.198Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:12:14.136Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:12:14 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:14.137Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:12:14 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:14.138Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:12:14 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:15.513Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:15.514Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:12:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:15.613Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:15.660Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:16.717Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:12:35.018Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:12:35.020Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:12:35.020Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:12:35.020Z] Platform:      win32
+[debug] [2017-09-30T23:12:35.020Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:12:35.021Z] Time:          Sun Oct 01 2017 06:12:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:35.021Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:12:35.031Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:12:35.031Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:12:35.033Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:12:35 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:36.555Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:36.556Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:12:36 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:37.535Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:12:38.226Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:12:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:38.226Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:12:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:38.226Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:12:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:39.655Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:39.656Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:12:39 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:12:39.716Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:39.772Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:12:40.501Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:13:17.604Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:13:17.606Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:13:17.606Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:13:17.606Z] Platform:      win32
+[debug] [2017-09-30T23:13:17.607Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:13:17.607Z] Time:          Sun Oct 01 2017 06:13:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:17.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:13:17.617Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:13:17.617Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:13:17.619Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:13:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:19.079Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:13:19.081Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:13:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:20.078Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:13:20.601Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:13:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:20.601Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:13:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:20.602Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:13:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:21.993Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:13:21.993Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:13:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:13:22.115Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:13:22.123Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:13:23.907Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:15:15.825Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:15:15.826Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:15:15.827Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:15:15.827Z] Platform:      win32
+[debug] [2017-09-30T23:15:15.827Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:15:15.827Z] Time:          Sun Oct 01 2017 06:15:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:15.827Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:15:15.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:15:15.837Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:15:15.839Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:15:15 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:17.736Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:15:17.737Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:15:17 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:18.824Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:15:19.434Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:15:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:19.434Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:15:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:19.434Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:15:19 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:20.859Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:15:20.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:15:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:15:20.896Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:15:20.993Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:15:21.894Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:16:16.801Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:16:16.801Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:16:16.801Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:16:16.801Z] Platform:      win32
+[debug] [2017-09-30T23:16:16.801Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:16:16.801Z] Time:          Sun Oct 01 2017 06:16:16 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:16.801Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:16:16.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:16:16.817Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:16:16.817Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:16:16 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:18.303Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:16:18.303Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:16:18 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:19.523Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:16:20.085Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:16:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:20.085Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:16:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:20.085Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:16:20 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:21.570Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:16:21.570Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:16:21 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:16:21.654Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:16:21.670Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:16:22.428Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:17:38.814Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:17:38.816Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:17:38.816Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:17:38.816Z] Platform:      win32
+[debug] [2017-09-30T23:17:38.816Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:17:38.816Z] Time:          Sun Oct 01 2017 06:17:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:38.816Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:17:38.826Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:17:38.827Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:17:38.829Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:17:38 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:40.201Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:17:40.202Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:17:40 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:41.290Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:17:41.825Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:17:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:41.826Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:17:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:41.827Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:17:41 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:43.254Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:17:43.255Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:17:43 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:17:43.300Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:17:43.343Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:17:44.129Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:31:52.497Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:31:52.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:31:52.513Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:31:52.513Z] Platform:      win32
+[debug] [2017-09-30T23:31:52.513Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:31:52.513Z] Time:          Sun Oct 01 2017 06:31:52 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:52.513Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:31:52.513Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:31:52.513Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:31:52.529Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-30T23:31:52.529Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/9DcYMtL158oCHKHxA9vCfXwPV3FMQvGFu8vwr9BaIpBK_2jYh5v1FPBGfkkXP0-x',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Oct 01 2017 06:31:52 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:52.929Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:31:53.051Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:31:53 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:54.745Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:31:54.747Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:31:54 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:55.800Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:31:56.472Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:31:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:56.472Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:31:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:56.472Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:31:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:58.055Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:31:58.056Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:31:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:31:58.057Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:31:58.089Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:31:59.328Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:33:55.143Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:33:55.145Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:33:55.145Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:33:55.145Z] Platform:      win32
+[debug] [2017-09-30T23:33:55.145Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:33:55.146Z] Time:          Sun Oct 01 2017 06:33:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:55.146Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:33:55.156Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:33:55.156Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:33:55.158Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:33:55 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:56.513Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:33:56.515Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:33:56 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:57.571Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:33:58.199Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:33:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:58.199Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:33:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:58.199Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:33:58 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:59.653Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:33:59.653Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:33:59 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:33:59.699Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:33:59.797Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:34:00.549Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[debug] [2017-09-30T23:34:37.619Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:34:37.635Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:34:37.635Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:34:37.635Z] Platform:      win32
+[debug] [2017-09-30T23:34:37.635Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:34:37.635Z] Time:          Sun Oct 01 2017 06:34:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:37.635Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:34:37.635Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:34:37.635Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:34:37.635Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:34:37 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:49.588Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:34:49.590Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:34:49 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:50.604Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:34:51.313Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:34:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:51.313Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:34:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:51.313Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:34:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:52.758Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:34:52.774Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:34:52 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:34:52.774Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:34:52.821Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:34:53.743Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
+[info] Shutting down...
+[debug] [2017-09-30T23:38:46.713Z] ----------------------------------------------------------------------
+[debug] [2017-09-30T23:38:46.729Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonpa\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2017-09-30T23:38:46.730Z] CLI Version:   3.12.0
+[debug] [2017-09-30T23:38:46.730Z] Platform:      win32
+[debug] [2017-09-30T23:38:46.730Z] Node Version:  v8.5.0
+[debug] [2017-09-30T23:38:46.730Z] Time:          Sun Oct 01 2017 06:38:46 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:46.730Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-30T23:38:46.734Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-30T23:38:46.734Z] > authorizing via signed-in user
+[debug] [2017-09-30T23:38:46.734Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:38:46 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:48.367Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:38:48.367Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/myfb-f6409/tokens  
+ Sun Oct 01 2017 06:38:48 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:49.383Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\nonpa\Desktop\lastfb'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2017-09-30T23:38:50.027Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/myfb-f6409  
+ Sun Oct 01 2017 06:38:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:50.027Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/myfb-f6409/apiKeys  
+ Sun Oct 01 2017 06:38:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:50.027Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/myfb-f6409  
+ Sun Oct 01 2017 06:38:50 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:51.490Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:38:51.490Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/826648195494/clients/_:getWebAppConfig  
+ Sun Oct 01 2017 06:38:51 GMT+0700 (SE Asia Standard Time)
+[debug] [2017-09-30T23:38:51.517Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:38:51.630Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-30T23:38:52.273Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] +  functions: app: http://localhost:5001/myfb-f6409/us-central1/app
